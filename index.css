@@ -1,0 +1,233 @@
+/* body{
+    background-color: #0E6AB1;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jockey+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    /* background-color: antiquewhite; */
+}
+
+.bgcol{
+    background-color: #ffffff;
+}
+
+.logo{
+    height: 100px;
+}
+.logo img{
+    height: 100%;
+}
+.header-words{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.header-words h6{
+    padding: 0px 30px;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+span{
+    color: #44CC82;
+    font-weight: 500;
+}
+
+.header-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.heading h3{
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #107a3f;
+        font-size: 40px;
+}
+
+.icons{
+    display: flex;
+    margin-left: 1000px;
+}
+
+.searchmain input{
+    width: 300px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    border: transparent;
+    background-color: #F3F3F3;
+    /* font-family: "Poppins", serif; */
+}
+.searchmain{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+.searchmain img{
+    width: 30px;
+
+}
+.line{
+    width: 1400px;
+    height: 1px;
+    background-color: #44CC82;
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
+
+.cardmain{
+    padding: 10px 50px;
+}
+.cardmain input{
+    width: 1400px;
+    margin-bottom: 30px;
+    padding: 20px 10px;
+    border: 1px solid transparent;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    font-family: "Poppins", serif;
+    outline: none;
+    
+}
+.cardmain input:focus{
+    border: 1px solid #44CC82;
+    box-shadow: #44CC82 1px 1px 1px;
+}
+.cardmain select{
+    width: 1400px;
+    margin-bottom: 30px;
+    padding: 20px 10px;
+    border: 1px solid transparent;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    font-family: "Poppins", serif;
+    outline: none;
+}
+.cardmain select:focus{
+    box-shadow: #44CC82 1px 1px 1px;
+}
+.cardmain h3{
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+.cardmain button{
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: solid 1px transparent;
+    background-color: #44CC82;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+.table{
+    /* background-color: #107a3f; */
+    margin: 0px 50px;
+    border: solid #44CC82 1px;
+ }
+ .table th{
+    padding: 5px 89px;
+    text-align: center;
+    align-items: center;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #107a3f;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #107a3f;
+
+ }
+ .table tr{
+    /* border: solid 1px #44CC82; */
+ }
+
+ #studentcontent{
+    /* background-color: #44CC82; */
+ }
+
+ #studentcontent td{
+    padding: 5px 0px;
+    align-items: center;
+    /* border: solid 1px #44CC82; */
+    border-bottom: 1px solid #44CC82;
+    text-align: center;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    
+ }
+ #studentcontent button{
+    /* padding: 5px 50px;
+    border-radius: 5px;
+    border: 1px solid #44CC82;
+    background-color: transparent; */
+
+
+ }
+ .editbutstu{
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: rgb(12, 12, 215);
+    color: white;
+ }
+ .delbutstu{
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: red;
+    color: white;
+ }
+
+ .header-search{
+    /* margin-top: 40px; */
+    
+}
+.header-search input{
+    width: 400px;
+    padding: 10px 10px;
+    border: 1px solid #44CC82;
+    border-radius: 8px;
+    /* border: transparent; */
+    background-color: transparent;
+    /* box-shadow: 1px 2px 1px #44CC82; */
+    font-family: "Poppins", serif;
+    outline: none;
+    
+}
+.header-search input:focus{
+    box-shadow: #44CC82 1px 1px 1px;
+}
+
+ .search-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 50px 60px 50px 50px;
+
+ }
+ .search-heading h3{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #107a3f;
+    font-size: 40px;
+    
+ }
