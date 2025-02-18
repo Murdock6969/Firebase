@@ -36,7 +36,7 @@
     const studentagevalidation = studage.value.trim();
     const studentcoursevalidation = studcourse.value.trim();
     const studentdatevalidation = studdate.value.trim();
-    alert(studentagevalidation+studentnamevalidation+studentcoursevalidation+studentdatevalidation)
+    // alert(studentagevalidation+studentnamevalidation+studentcoursevalidation+studentdatevalidation)
 
     const createstudent = {
         Name:studentnamevalidation,
