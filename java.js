@@ -36,7 +36,7 @@
     const studentagevalidation = studage.value.trim();
     const studentcoursevalidation = studcourse.value.trim();
     const studentdatevalidation = studdate.value.trim();
-    // alert(studentagevalidation+studentnamevalidation+studentcoursevalidation+studentdatevalidation)
+    
 
     const createstudent = {
         Name:studentnamevalidation,
@@ -48,7 +48,7 @@
 
     if (editid) {
         set(ref(createdatabase,`stud-dets/${editid}`),createstudent)
-        alert('data edited')
+        // alert('data edited')
         cleardatas();
     }else{
         push(detailname,createstudent)
@@ -102,7 +102,7 @@
     if (event.target.classList.contains('editbutstu')) {
 
         let exactdata = event.target.dataset.id;
-        // alert(exactdata)  
+       
         let rrr = event.target.closest('tr').children;
         studname.value = rrr[0].innerHTML;
         studage.value = rrr[1].innerHTML;
@@ -110,18 +110,18 @@
         studdate.value = rrr[3].innerHTML;
         editid = exactdata
 
-        // alert('editbutstu')
+ 
 
 
 
 
 
     } else if(event.target.classList.contains('delbutstu')){
-        // alert('delbutstu')
+     
 
         if (confirm('Delete student data ?')) {
             let exactdata = event.target.dataset.id;
-            // alert(exactdata)
+           
             remove(ref(createdatabase,`stud-dets/${exactdata}`))
             
         }
